@@ -1,0 +1,91 @@
+header {
+    display: flex;
+    text-align: center;
+    background-color: rgb(179, 179, 254);
+    border-radius: 100px;
+    position: relative;
+
+}
+nav {
+    margin-top: 6px;
+    padding-top: 6px;
+}
+a {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: rgb(255, 146, 146);
+    border-radius: 100px;
+    color: aqua;
+}
+.espacio {
+    padding: 30px;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+.barra {
+    border-radius: 50px;
+    width: 500px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+footer{
+    background-color: black;
+    color: #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+}
+.izq{
+    width: 200px;
+    background-color: #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    top: 70px;
+    position: fixed;
+    bottom : 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 20px;
+}
+body {
+    background-color: rgb(255, 188, 188);
+}
+.titulo {
+    margin-left: 100px;
+    padding-left: 100px;
+}
+.cooki {
+    margin-left: 100px;
+    padding-left: 100px;
+}
+.img {
+    width: 820px;
+    height: 470px;
+}
+.contenedor {
+    padding-right: 50px;
+}
+.imga {
+    width: 700px;
+    height: 300px;
+}
+.der {
+    width: 310px;
+    background-color: #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    top: 70px;
+    position: fixed;
+    bottom: 0;
+    right: 0; 
+    z-index: 1;
+    border-radius: 20px;
+}
